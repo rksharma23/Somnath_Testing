@@ -20,12 +20,14 @@ export default function BatteryCard() {
   const [socket, setSocket] = useState<Socket | null>(null);
   const [battery, setBattery] = useState<number | null>(null);
   const [isConnected, setIsConnected] = useState(false);
-
+  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL
   useEffect(() => {
+    //updating socket io url according to production url
     let newSocket: Socket | null = null;
     const hostname = window.location.hostname;
     const port = 3001;
-    newSocket = io(`http://${hostname}:${port}`, {
+    //newSocket = io(`http://${hostname}:${port}`, {
+    newSocket = io(SOCKET_SERVER_URL, {
       transports: ["websocket"],
       reconnection: true,
       reconnectionAttempts: 5,

@@ -1,0 +1,39 @@
+{
+  "name": "smart-cycle-server",
+  "version": "1.0.0",
+  "description": "Smart Cycle Data Collection Server - Receives live sensor data from bikes and provides real-time data streaming to clients",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smart-bike",
+    "iot",
+    "sensor-data",
+    "real-time",
+    "websocket",
+    "express",
+    "data-collection"
+  ],
+  "author": "Somnath Jha",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

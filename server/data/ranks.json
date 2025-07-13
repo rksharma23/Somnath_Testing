@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "name": "Amit Sharma",
+    "email": "amit.sharma@example.in",
+    "points": 2847,
+    "level": "Elite",
+    "achievements": [
+      {
+        "id": "speed_demon",
+        "title": "Speed Demon",
+        "description": "Achieved 30+ km/h average speed",
+        "icon": "⚡",
+        "unlocked": true,
+        "date": "2024-01-15"
+      },
+      {
+        "id": "distance_master",
+        "title": "Distance Master",
+        "description": "Completed 1000+ km total distance",
+        "icon": "🏆",
+        "unlocked": true,
+        "date": "2024-02-20"
+      },
+      {
+        "id": "streak_champion",
+        "title": "Streak Champion",
+        "description": "7 days consecutive riding",
+        "icon": "🔥",
+        "unlocked": true,
+        "date": "2024-03-10"
+      }
+    ],
+    "totalDistance": 1180,
+    "avgSpeed": 28.2,
+    "ridesCompleted": 87,
+    "badge": "🥇"
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "name": "Priya Singh",
+    "email": "priya.singh@example.in",
+    "points": 2654,
+    "level": "Pro",
+    "achievements": [
+      {
+        "id": "speed_demon",
+        "title": "Speed Demon",
+        "description": "Achieved 30+ km/h average speed",
+        "icon": "⚡",
+        "unlocked": true,
+        "date": "2024-01-20"
+      },
+      {
+        "id": "distance_master",
+        "title": "Distance Master",
+        "description": "Completed 1000+ km total distance",
+        "icon": "🏆",
+        "unlocked": true,
+        "date": "2024-02-25"
+      },
+      {
+        "id": "night_rider",
+        "title": "Night Rider",
+        "description": "Completed 10 night rides",
+        "icon": "🌙",
+        "unlocked": true,
+        "date": "2024-03-05"
+      }
+    ],
+    "totalDistance": 1102,
+    "avgSpeed": 26.7,
+    "ridesCompleted": 78,
+    "badge": "🥈"
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@example.in",
+    "points": 2432,
+    "level": "Advanced",
+    "achievements": [
+      {
+        "id": "speed_demon",
+        "title": "Speed Demon",
+        "description": "Achieved 25+ km/h average speed",
+        "icon": "⚡",
+        "unlocked": true,
+        "date": "2024-01-25"
+      },
+      {
+        "id": "eco_friendly",
+        "title": "Eco Friendly",
+        "description": "Saved 100kg CO2 emissions",
+        "icon": "🌱",
+        "unlocked": true,
+        "date": "2024-02-15"
+      },
+      {
+        "id": "weekend_warrior",
+        "title": "Weekend Warrior",
+        "description": "Rode every weekend for a month",
+        "icon": "📅",
+        "unlocked": false,
+        "date": null
+      }
+    ],
+    "totalDistance": 950,
+    "avgSpeed": 24.9,
+    "ridesCompleted": 62,
+    "badge": "🥉"
+  },
+  {
+    "id": 4,
+    "rank": 4,
+    "name": "Sneha Patel",
+    "email": "sneha.patel@example.in",
+    "points": 2187,
+    "level": "Intermediate",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-10"
+      },
+      {
+        "id": "distance_master",
+        "title": "Distance Master",
+        "description": "Completed 1000+ km total distance",
+        "icon": "🏆",
+        "unlocked": false,
+        "date": null
+      },
+      {
+        "id": "speed_demon",
+        "title": "Speed Demon",
+        "description": "Achieved 20+ km/h average speed",
+        "icon": "⚡",
+        "unlocked": true,
+        "date": "2024-02-10"
+      }
+    ],
+    "totalDistance": 710,
+    "avgSpeed": 20.7,
+    "ridesCompleted": 49,
+    "badge": "4️⃣"
+  },
+  {
+    "id": 5,
+    "rank": 5,
+    "name": "Vikram Kumar",
+    "email": "vikram.kumar@example.in",
+    "points": 1954,
+    "level": "Beginner",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-05"
+      },
+      {
+        "id": "early_bird",
+        "title": "Early Bird",
+        "description": "Completed 5 morning rides",
+        "icon": "🌅",
+        "unlocked": true,
+        "date": "2024-02-01"
+      },
+      {
+        "id": "speed_demon",
+        "title": "Speed Demon",
+        "description": "Achieved 18+ km/h average speed",
+        "icon": "⚡",
+        "unlocked": true,
+        "date": "2024-02-15"
+      }
+    ],
+    "totalDistance": 420,
+    "avgSpeed": 18.3,
+    "ridesCompleted": 28,
+    "badge": "5️⃣"
+  },
+  {
+    "id": 6,
+    "rank": 6,
+    "name": "Meera Joshi",
+    "email": "meera.joshi@example.in",
+    "points": 1820,
+    "level": "Intermediate",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-12"
+      },
+      {
+        "id": "weekend_warrior",
+        "title": "Weekend Warrior",
+        "description": "Rode every weekend for a month",
+        "icon": "📅",
+        "unlocked": true,
+        "date": "2024-03-01"
+      }
+    ],
+    "totalDistance": 540,
+    "avgSpeed": 19.5,
+    "ridesCompleted": 34,
+    "badge": "6️⃣"
+  },
+  {
+    "id": 7,
+    "rank": 7,
+    "name": "Suresh Nair",
+    "email": "suresh.nair@example.in",
+    "points": 1702,
+    "level": "Beginner",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-18"
+      }
+    ],
+    "totalDistance": 320,
+    "avgSpeed": 15.2,
+    "ridesCompleted": 22,
+    "badge": "7️⃣"
+  },
+  {
+    "id": 8,
+    "rank": 8,
+    "name": "Anjali Rao",
+    "email": "anjali.rao@example.in",
+    "points": 1625,
+    "level": "Beginner",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-22"
+      },
+      {
+        "id": "early_bird",
+        "title": "Early Bird",
+        "description": "Completed 5 morning rides",
+        "icon": "🌅",
+        "unlocked": false,
+        "date": null
+      }
+    ],
+    "totalDistance": 270,
+    "avgSpeed": 13.8,
+    "ridesCompleted": 20,
+    "badge": "8️⃣"
+  },
+  {
+    "id": 9,
+    "rank": 9,
+    "name": "Rohit Das",
+    "email": "rohit.das@example.in",
+    "points": 1580,
+    "level": "Beginner",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-25"
+      },
+      {
+        "id": "night_rider",
+        "title": "Night Rider",
+        "description": "Completed 10 night rides",
+        "icon": "🌙",
+        "unlocked": false,
+        "date": null
+      }
+    ],
+    "totalDistance": 230,
+    "avgSpeed": 12.7,
+    "ridesCompleted": 21,
+    "badge": "9️⃣"
+  },
+  {
+    "id": 10,
+    "rank": 10,
+    "name": "Farhan Ali",
+    "email": "farhan.ali@example.in",
+    "points": 1502,
+    "level": "Beginner",
+    "achievements": [
+      {
+        "id": "first_ride",
+        "title": "First Ride",
+        "description": "Completed your first ride",
+        "icon": "🎯",
+        "unlocked": true,
+        "date": "2024-01-28"
+      }
+    ],
+    "totalDistance": 210,
+    "avgSpeed": 12.1,
+    "ridesCompleted": 20,
+    "badge": "🔟"
+  }
+] 

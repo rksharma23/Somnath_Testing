@@ -1,0 +1,84 @@
+[
+  {
+    "guardianId": "G001",
+    "userId": 1,
+    "name": "Amit Sharma",
+    "email": "amit.sharma@example.in",
+    "phone": "9876543210",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "status": "active",
+    "wards": [
+      {
+        "wardId": "W001",
+        "name": "Rahul Sharma",
+        "age": 12,
+        "grade": "7th",
+        "bikeId": "BIKE001",
+        "bikeName": "Rahul's Mountain Bike",
+        "createdAt": "2024-01-15T00:00:00Z",
+        "status": "active"
+      },
+      {
+        "wardId": "W002", 
+        "name": "Priya Sharma",
+        "age": 10,
+        "grade": "5th",
+        "bikeId": "BIKE002",
+        "bikeName": "Priya's City Bike",
+        "createdAt": "2024-01-20T00:00:00Z",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "guardianId": "G002",
+    "userId": 4,
+    "name": "Sneha Patel",
+    "email": "sneha.patel@example.in", 
+    "phone": "9001122334",
+    "createdAt": "2024-01-05T00:00:00Z",
+    "status": "active",
+    "wards": [
+      {
+        "wardId": "W003",
+        "name": "Vikram Patel",
+        "age": 14,
+        "grade": "9th",
+        "bikeId": "BIKE003",
+        "bikeName": "Vikram's Racing Bike",
+        "createdAt": "2024-02-01T00:00:00Z",
+        "status": "active"
+      },
+      {
+        "wardId": "W004",
+        "name": "Anjali Patel", 
+        "age": 8,
+        "grade": "3rd",
+        "bikeId": "BIKE004",
+        "bikeName": "Anjali's Kids Bike",
+        "createdAt": "2024-02-10T00:00:00Z",
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "guardianId": "G003",
+    "userId": 2,
+    "name": "Priya Singh",
+    "email": "priya.singh@example.in",
+    "phone": "9123456789",
+    "createdAt": "2024-01-10T00:00:00Z",
+    "status": "active",
+    "wards": []
+  },
+  {
+    "guardianId": "G004",
+    "userId": 3,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@example.in",
+    "phone": "9988776655",
+    "createdAt": "2024-01-12T00:00:00Z",
+    "status": "active",
+    "wards": []
+  }
+] 

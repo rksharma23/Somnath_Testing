@@ -1,0 +1,19 @@
+<svg width="200" height="32" viewBox="0 0 200 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Firefox Fox Icon -->
+  <g transform="translate(0, 2)">
+    <!-- Fox head -->
+    <ellipse cx="16" cy="14" rx="12" ry="10" fill="#FF7139"/>
+    <!-- Fox ears -->
+    <path d="M8 6 L12 2 L16 6" fill="#FF7139" stroke="#E55A2B" stroke-width="1"/>
+    <path d="M24 6 L20 2 L16 6" fill="#FF7139" stroke="#E55A2B" stroke-width="1"/>
+    <!-- Fox face -->
+    <circle cx="12" cy="12" r="2" fill="#2C2C2C"/>
+    <circle cx="20" cy="12" r="2" fill="#2C2C2C"/>
+    <ellipse cx="16" cy="16" rx="3" ry="2" fill="#2C2C2C"/>
+    <!-- Fox nose -->
+    <circle cx="16" cy="14" r="1" fill="#2C2C2C"/>
+  </g>
+  
+  <!-- Firefox Dashboard Text -->
+  <text x="40" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#101828">Firefox Dashboard</text>
+</svg>

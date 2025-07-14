@@ -24,9 +24,6 @@ export default function BatteryCard() {
   useEffect(() => {
     //updating socket io url according to production url
     let newSocket: Socket | null = null;
-    const hostname = window.location.hostname;
-    const port = 3001;
-    //newSocket = io(`http://${hostname}:${port}`, {
     newSocket = io(SOCKET_SERVER_URL, {
       transports: ["websocket"],
       reconnection: true,

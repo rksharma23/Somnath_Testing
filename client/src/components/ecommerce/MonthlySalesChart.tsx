@@ -30,10 +30,11 @@ export default function MonthlySalesChart() {
   const [timeLabels, setTimeLabels] = useState<string[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [isConnected, setIsConnected] = useState(true);
+  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL;
 
   useEffect(() => {
-    const hostname = window.location.hostname;
-    const newSocket = io(`http://${hostname}:3001`, {
+    //const hostname = window.location.hostname;
+    const newSocket = io(SOCKET_SERVER_URL, {
       transports: ["websocket", "polling"],
       timeout: 20000,
     });

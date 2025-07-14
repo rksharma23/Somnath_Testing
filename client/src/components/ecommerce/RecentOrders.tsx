@@ -34,7 +34,7 @@ export default function RecentOrders() {
   const [socket, setSocket] = useState<Socket | null>(null);
   const [recentData, setRecentData] = useState<BikeData[]>([]);
   const [isConnected, setIsConnected] = useState(true);
-  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL
+  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL;
   // Get bike IDs that belong to the guardian's wards
   const guardianBikeIds = guardian?.wards?.map(ward => ward.bikeId) || [];
 

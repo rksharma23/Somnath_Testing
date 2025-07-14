@@ -39,7 +39,7 @@ export default function EcommerceMetrics({ cardTitles }: EcommerceMetricsProps) 
   const [isConnected, setIsConnected] = useState(false);
   const [latestData, setLatestData] = useState<BikeData | null>(null);
   const [error, setError] = useState<string | null>(null);
-
+  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL
   const titles = cardTitles || [
     "Current Speed",
     "Total Distance",
@@ -51,10 +51,7 @@ export default function EcommerceMetrics({ cardTitles }: EcommerceMetricsProps) 
     let newSocket: Socket | null = null;
     
     try {
-      const hostname = window.location.hostname;
-      const port = 3001; // You can move this to environment variable if needed
-      
-      newSocket = io(`http://${hostname}:${port}`, {
+      newSocket = io(SOCKET_SERVER_URL, {
         transports: ["websocket"],
         reconnection: true,
         reconnectionAttempts: 5,

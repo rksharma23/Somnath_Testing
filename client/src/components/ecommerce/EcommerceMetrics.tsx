@@ -39,7 +39,7 @@ export default function EcommerceMetrics({ cardTitles }: EcommerceMetricsProps) 
   const [isConnected, setIsConnected] = useState(false);
   const [latestData, setLatestData] = useState<BikeData | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL
+  const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL;
   const titles = cardTitles || [
     "Current Speed",
     "Total Distance",
